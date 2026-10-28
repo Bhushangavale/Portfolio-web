@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Bhushan Gavale | Developer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive personal portfolio showcasing my technical skills, education, and software development projects.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- Professional introduction and About Me
+- Technical skills and education
+- Project showcase with technology stacks
+- Resume and contact information
+- Responsive design for desktop and mobile
+- Interactive UI with animations
 
-View your app in AI Studio: https://ai.studio/apps/1e7a4acb-e355-4aac-b126-3c66ad7d4adc
+## 🛠️ Tech Stack
+- **Frontend:** React, TypeScript, HTML, CSS
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Libraries:** Lucide React, Motion
 
-## Run Locally
+## 💻 Getting Started
 
-**Prerequisites:**  Node.js
+**1. Clone the repository**
+```bash
+git clone <your-github-repository-url>
+```
 
+**2. Navigate to the project**
+```bash
+cd bhushan-portfolio
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**3. Install dependencies**
+```bash
+npm install
+```
+
+**4. Run the development server**
+```bash
+npm run dev
+```
+
+**5. Build for production**
+```bash
+npm run build
+```
+
+## 🌐 Live Demo
+[View My Portfolio](<your-live-portfolio-url>)
+
+## 📬 Connect With Me
+- **GitHub:** https://github.com/Bhushangavale
+- **LinkedIn:** https://www.linkedin.com/in/bhushan-gavale/
+
+---
+*Built with React, TypeScript, and modern web technologies.*
