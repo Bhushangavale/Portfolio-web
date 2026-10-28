@@ -1,0 +1,1003 @@
+# PROJECT: PREMIUM SOFTWARE DEVELOPER PORTFOLIO WEBSITE
+
+## ROLE AND OBJECTIVE
+
+Act as a senior UI/UX designer, frontend developer, backend developer, and portfolio branding expert.
+
+Create a complete, modern, responsive, professional developer portfolio website using Google AI Studio with Gemini-powered Vibe Coding.
+
+The website must be inspired by the reference image provided by the user.
+
+The reference design features:
+- A clean white background.
+- Oversized light-gray typography in the background.
+- A large professional portrait on the right.
+- A bold introduction on the left.
+- A minimalist vertical navigation menu.
+- Floating social media icons on the right.
+- Black buttons and subtle yellow accents.
+- A clean, premium, minimalist appearance.
+
+Reinterpret these design elements for a fresher pursuing Java Developer, Backend Developer, and Full Stack Developer opportunities.
+
+Do not create a generic portfolio template. Make the website visually distinctive, technically professional, easy to navigate, and suitable for recruiters.
+
+The final website must contain real navigation, functional links, responsive layouts, interactive components, and complete portfolio sections.
+
+---
+
+# 1. OVERALL THEME
+
+Theme name: Minimalist Developer Identity.
+
+Create a premium, monochrome portfolio with a modern editorial design.
+
+The website should communicate:
+- Technical competence.
+- Professionalism.
+- Creativity.
+- Attention to detail.
+- Problem-solving ability.
+- Passion for software development.
+
+The overall appearance should resemble a carefully designed personal website rather than a standard resume template.
+
+Use generous whitespace, carefully aligned elements, oversized typography, thin borders, subtle shadows, and restrained animation.
+
+Avoid:
+- Excessive gradients.
+- Too many bright colors.
+- Unnecessary glassmorphism.
+- Excessive rounded cards.
+- Crowded layouts.
+- Generic stock illustrations.
+- Unnecessary animations.
+- Large numbers of decorative elements.
+
+Maintain visual consistency across every section.
+
+The portfolio should look impressive on desktop while remaining fully usable on mobile devices.
+
+---
+
+# 2. COLOR PALETTE
+
+Use the following color system throughout the website.
+
+Primary background:
+#FFFFFF
+
+Primary text:
+#111111
+
+Secondary text:
+#666666
+
+Muted text:
+#888888
+
+Light-gray background:
+#F5F5F5
+
+Large background typography:
+#E7E7E7
+
+Borders and dividers:
+#E5E5E5
+
+Accent yellow:
+#FFB800
+
+Button background:
+#111111
+
+Button text:
+#FFFFFF
+
+Button hover background:
+#FFB800
+
+Button hover text:
+#111111
+
+Success indicators:
+#16803C
+
+Use yellow only for important highlights, active navigation indicators, selected keywords, small decorative elements, and hover effects.
+
+Do not use yellow as a dominant background color.
+
+Ensure adequate contrast for text readability and accessibility.
+
+---
+
+# 3. LAYOUT STRUCTURE
+
+Create a single-page portfolio with multiple vertically arranged sections.
+
+Use the following layout:
+
+A. Minimalist left-side navigation.
+B. Main portfolio content.
+C. Floating right-side social media toolbar.
+D. Responsive mobile navigation.
+E. Optional floating back-to-top button.
+
+On large screens, use a clean three-part visual arrangement:
+
+LEFT:
+Vertical section navigation.
+
+CENTER:
+Main introduction, biography, skills, projects, experience, education, and contact sections.
+
+RIGHT:
+Professional portrait in the hero section and floating social media icons.
+
+The hero section should use a balanced two-column composition.
+
+Keep the main content centered within a reasonable maximum width.
+
+Use CSS Grid and Flexbox for layout rather than absolute positioning for all content.
+
+Absolute positioning may be used selectively for decorative background typography and other nonessential visual effects.
+
+Ensure that the layout does not break when the viewport changes size.
+
+---
+
+# 4. HERO SECTION
+
+The hero section is the most important part of the website.
+
+It should visually resemble the provided reference image while presenting the developer's own identity.
+
+Use a spacious, approximately full-screen hero section on desktop.
+
+## Background design
+
+Add an oversized word such as:
+
+DEVELOPER
+
+or
+
+BUILD
+
+Place it behind the main hero content using very large typography.
+
+Use a light-gray color such as #E7E7E7.
+
+Keep the background word partially cropped by the viewport if this improves the editorial design.
+
+It must remain decorative and must not interfere with readability or clicking.
+
+## Introduction content
+
+Display a small introductory label:
+
+HELLO, I'M
+
+Display the developer's name in large, bold typography:
+
+Bhushan Gavale
+
+Add a small yellow lightning-bolt symbol or another minimal technical accent beside the name.
+
+Under the name, display:
+
+Java Developer | Backend Developer | Full Stack Developer
+
+Write a short, professional introduction:
+
+"I'm a computer science graduate passionate about building reliable backend systems, scalable web applications, and practical software solutions using Java and modern web technologies."
+
+Keep the introduction concise and readable.
+
+Avoid exaggerated claims about professional experience.
+
+## Primary buttons
+
+Add two buttons:
+
+1. View Projects
+2. Download Resume
+
+The View Projects button should smoothly scroll to the projects section.
+
+The Download Resume button should download the actual resume file when one has been configured.
+
+If the resume file is unavailable, provide a clearly documented placeholder configuration rather than a broken download.
+
+Optionally include a third button:
+
+Contact Me
+
+This should navigate to the contact section.
+
+## Professional portrait
+
+Place a large, high-quality portrait on the right side of the hero section.
+
+The portrait should:
+- Use the developer's real uploaded photograph when available.
+- Preserve the person's actual identity.
+- Have a clean background.
+- Use a natural, professional appearance.
+- Fit harmoniously into the monochrome design.
+
+Use a large rectangular or subtly rounded image container.
+
+A transparent-background portrait may be used if a suitable image is supplied.
+
+Do not invent a real person's photograph.
+
+If no photograph is provided, use a neutral placeholder that can easily be replaced later.
+
+Add a subtle entrance animation to the portrait.
+
+On smaller screens, position the portrait below or above the introduction depending on what creates the best visual hierarchy.
+
+---
+
+# 5. OPTIONAL QUOTE ELEMENT
+
+Add a small motivational quote near the top of the hero section.
+
+Use a short quote about persistence, engineering, learning, or problem-solving.
+
+The quote should:
+- Use medium-sized text.
+- Have a light-gray background or subtle visual separation.
+- Include the author's name only when the attribution is verified.
+- Occupy a limited amount of space.
+
+Treat this as an optional element.
+
+The quote must not overpower the developer's introduction.
+
+---
+
+# 6. LEFT-SIDE NAVIGATION
+
+Create a minimalist vertical navigation bar on desktop.
+
+Place it near the left edge of the screen.
+
+The navigation should contain:
+
+- Home
+- About
+- Skills
+- Projects
+- Experience
+- Education
+- Contact
+
+Use small text, subtle separators, and plenty of vertical spacing.
+
+Inactive items should appear in muted gray.
+
+The active section should be highlighted with:
+- Yellow text.
+- A small yellow dash or indicator.
+- A smooth transition.
+
+When the user clicks a navigation item, smoothly scroll to the corresponding section.
+
+Use an IntersectionObserver or an equivalent reliable mechanism to update the active section as the user scrolls.
+
+Keep the navigation unobtrusive.
+
+On mobile devices, replace the fixed vertical navigation with a compact navigation menu or accessible menu button.
+
+Ensure that the navigation never overlaps important content.
+
+---
+
+# 7. RIGHT-SIDE SOCIAL MEDIA TOOLBAR
+
+Create a vertically arranged social media toolbar on the right side of the desktop viewport.
+
+Include icons for:
+
+- GitHub.
+- LinkedIn.
+- Email.
+- Other professional profiles when available.
+
+Use recognizable icons from a suitable icon library, such as Lucide or React Icons.
+
+Each icon should:
+- Be contained in a small square or circular button.
+- Have a subtle border or background.
+- Display a tooltip on hover.
+- Include an accessible label.
+- Open the correct destination.
+
+Use black and gray as the default icon colors.
+
+Apply the yellow accent color to hover states.
+
+Do not invent profile URLs.
+
+Keep social profile links in one central configuration object so they can be updated easily.
+
+Hide the floating toolbar on very narrow screens if it would obstruct content. Provide equivalent social links in the footer.
+
+---
+
+# 8. ABOUT SECTION
+
+Create a section titled:
+
+About Me
+
+Write a friendly, professional biography.
+
+The biography should communicate that the developer is a computer science graduate and aspiring software developer who enjoys building applications, learning new technologies, and solving programming problems.
+
+Mention relevant technical interests:
+- Java development.
+- Backend engineering.
+- REST APIs.
+- Database design.
+- Full Stack development.
+- AI integration where relevant.
+
+Keep the language natural and easy to understand.
+
+Do not fabricate employment history, awards, client work, or professional achievements.
+
+Include a small statistics area only when actual data is available.
+
+Possible statistics:
+- Projects Completed.
+- Technologies Learned.
+- Coding Problems Solved.
+
+Do not display invented numbers.
+
+Use a clean text layout with subtle dividers rather than excessive cards.
+
+---
+
+# 9. TECHNICAL SKILLS SECTION
+
+Create a Skills section with clearly organized technology groups.
+
+Group 1: Programming Languages
+- Java.
+- SQL.
+- JavaScript.
+
+Group 2: Backend Development
+- Spring.
+- Spring Boot.
+- Spring MVC.
+- RESTful APIs.
+- Hibernate.
+- JPA.
+- Spring Security, if studied or implemented.
+
+Group 3: Frontend Development
+- HTML5.
+- CSS3.
+- JavaScript.
+- React.
+
+Group 4: Databases
+- MySQL.
+- PostgreSQL, if applicable.
+
+Group 5: Development Tools
+- Git.
+- GitHub.
+- Maven.
+- Postman.
+- IntelliJ IDEA or Eclipse, as applicable.
+
+Group 6: AI Integration
+- Spring AI.
+- Retrieval-Augmented Generation (RAG).
+- Ollama.
+- Vector databases.
+- LLM integration.
+
+Display only technologies that the developer has actually studied or used.
+
+Present skills using clean lists, small icons, or simple technology labels.
+
+Avoid arbitrary proficiency percentages such as 90% Java or 85% Spring Boot.
+
+If skill levels are included, describe them honestly using labels such as Familiar, Practicing, and Project Experience.
+
+Use a responsive grid with subtle hover effects.
+
+---
+
+# 10. PROJECTS SECTION
+
+Create an impressive Projects section.
+
+Use large, clean project cards with a consistent visual structure.
+
+Each project should include:
+- Project title.
+- Short description.
+- Technology stack.
+- Key features.
+- GitHub repository link.
+- Live demo link, if available.
+- Project image or screenshot, if available.
+
+Include the following projects when they match the developer's actual work.
+
+PROJECT 1: BLOCKCHAIN-BASED AGRICULTURAL SUPPLY CHAIN
+
+Description:
+A project designed to improve transparency and traceability in the agricultural supply chain by tracking product information and transactions.
+
+Potential technology stack:
+Java, Spring Boot, Ethereum, Web3j, MySQL, React.
+
+Include only the features that have actually been implemented.
+
+PROJECT 2: E-COMMERCE WEB APPLICATION
+
+Description:
+A web application demonstrating product browsing, product management, and core e-commerce workflows.
+
+Potential technology stack:
+Java, Spring Boot, Spring MVC, Thymeleaf, Hibernate/JPA, MySQL.
+
+Include features such as product listings, authentication, cart functionality, and order management only if they exist in the project.
+
+PROJECT 3: ENTERPRISE AI KNOWLEDGE ASSISTANT
+
+Description:
+An AI-powered application designed to answer questions about uploaded documents and provide supporting source references.
+
+Potential technology stack:
+Java, Spring Boot, Spring AI, React, Ollama, PostgreSQL, pgvector.
+
+Potential features:
+- Document ingestion.
+- Document-based question answering.
+- Retrieval-Augmented Generation.
+- Source citations.
+- Access-controlled document retrieval.
+
+Mark features as planned or in development if they have not been completed.
+
+For every project, use accurate descriptions.
+
+Do not fabricate repository links, deployment URLs, performance results, users, or completed functionality.
+
+## Project card design
+
+Use a minimalist card design with:
+- A project preview image.
+- A bold title.
+- A short description.
+- Technology labels.
+- A GitHub button.
+- An optional Live Demo button.
+
+Use a subtle border and a slight upward movement on hover.
+
+Avoid heavy shadows and excessive rounded corners.
+
+Add a project detail modal or dedicated detail section only if it improves usability.
+
+The project section should be easy to update by editing a central project data file.
+
+---
+
+# 11. EXPERIENCE AND LEARNING SECTION
+
+Create a section titled:
+
+Experience & Learning
+
+If the developer has no formal software development employment experience, do not invent any.
+
+Instead, emphasize:
+- Academic projects.
+- Independent development.
+- Technical learning.
+- Internship experience, if verified.
+- Open-source contributions, if available.
+
+Use a simple vertical timeline.
+
+Each timeline item may include:
+- Project or learning activity.
+- Relevant technologies.
+- Brief description.
+- Date range, when known.
+
+Present academic and independent work as such.
+
+Do not label a personal project as professional employment.
+
+---
+
+# 12. EDUCATION SECTION
+
+Create an Education section with a clean timeline or compact information cards.
+
+Include configurable fields for:
+- Degree.
+- College or university.
+- Graduation year.
+- Relevant coursework.
+- Academic projects.
+
+Include CDAC PGCP-AC only if the developer confirms the program details and the relevant status or dates.
+
+Clearly distinguish completed qualifications from ongoing or upcoming education.
+
+Do not invent marks, CGPA, ranks, certificates, or awards.
+
+Keep the design simple and consistent with the rest of the portfolio.
+
+---
+
+# 13. CERTIFICATIONS AND ACHIEVEMENTS
+
+Create an optional section for certifications and achievements.
+
+Display each item with:
+- Certification or achievement title.
+- Issuing organization.
+- Completion date.
+- Credential link, if available.
+
+Only include verified certifications and achievements.
+
+If no data is available, hide this section or display a configuration-ready placeholder that does not appear in the published portfolio.
+
+Do not create fake certificates or achievement statistics.
+
+---
+
+# 14. CONTACT SECTION
+
+Create a professional Contact section.
+
+Heading:
+
+Let's Build Something Great
+
+Supporting text:
+
+"I'm open to opportunities where I can contribute my Java development skills, learn from experienced engineers, and build useful software solutions."
+
+Include:
+- Email address.
+- LinkedIn profile.
+- GitHub profile.
+- Optional contact form.
+
+The contact form should contain:
+- Name.
+- Email.
+- Subject.
+- Message.
+- Submit button.
+
+Validate all required fields.
+
+Display clear success and error messages.
+
+Do not display a false success message if the message was not actually sent.
+
+If no backend or form service is configured, provide a working email-based contact option or clearly explain how to connect a form submission service.
+
+Protect credentials and API keys.
+
+Never expose private API keys in frontend source code.
+
+Add basic spam protection if a backend contact form is implemented.
+
+---
+
+# 15. FOOTER
+
+Create a simple footer with:
+- Developer name.
+- Copyright year.
+- GitHub link.
+- LinkedIn link.
+- Email link.
+- Back-to-top button.
+
+Use a thin top border and muted text.
+
+The copyright year should update automatically.
+
+Avoid unnecessary footer content.
+
+---
+
+# 16. TYPOGRAPHY
+
+Use a modern sans-serif font family.
+
+Recommended options:
+- Inter.
+- Manrope.
+- Space Grotesk.
+
+Use one primary font family and, optionally, a complementary heading font.
+
+Suggested hierarchy:
+
+Hero name:
+64–88px on large desktop screens.
+
+Section headings:
+36–48px.
+
+Project titles:
+22–28px.
+
+Body text:
+15–18px.
+
+Navigation:
+12–14px.
+
+Small metadata:
+12–13px.
+
+Use responsive typography with CSS clamp().
+
+Example:
+
+font-size: clamp(2.5rem, 6vw, 5.5rem);
+
+Use bold weights for important headings and regular weights for body text.
+
+Maintain appropriate line height and paragraph spacing.
+
+Avoid using too many font weights or decorative fonts.
+
+Ensure that headings remain readable on mobile devices.
+
+---
+
+# 17. ANIMATIONS AND INTERACTIONS
+
+Use subtle, performance-friendly animations.
+
+Include:
+
+1. Hero introduction fade-in.
+2. Portrait fade-in or slight upward movement.
+3. Section entrance animations.
+4. Smooth scrolling between sections.
+5. Button hover transitions.
+6. Project card hover effects.
+7. Social icon hover effects.
+8. Active navigation indicator transitions.
+9. Optional animated lightning-bolt accent.
+
+Keep animation durations short and natural.
+
+Avoid excessive parallax, continuous spinning elements, distracting background particles, or animations that delay access to the content.
+
+Respect the prefers-reduced-motion accessibility setting.
+
+All important content must remain visible and usable when animations are disabled.
+
+---
+
+# 18. RESPONSIVE DESIGN
+
+The portfolio must work properly on:
+
+- Large desktop screens.
+- Standard laptop screens.
+- Tablets.
+- Mobile phones.
+
+Desktop:
+Use the left navigation, spacious hero layout, large portrait, and floating social toolbar.
+
+Tablet:
+Reduce typography sizes and spacing. Keep the hero layout only when both columns have enough room.
+
+Mobile:
+Use a single-column layout.
+
+Stack the introduction and portrait vertically.
+
+Use a compact navigation menu.
+
+Remove or reposition decorative background typography if it interferes with the content.
+
+Make buttons easy to tap.
+
+Ensure project cards fit the screen width.
+
+Prevent horizontal scrolling.
+
+Use responsive CSS Grid, Flexbox, and appropriate media queries.
+
+Test the page at common viewport widths, including approximately 375px, 768px, 1024px, and 1440px.
+
+---
+
+# 19. FUNCTIONAL REQUIREMENTS
+
+The portfolio must be a functional website, not just a visual mockup.
+
+Implement:
+- Working section navigation.
+- Working View Projects button.
+- Working email links.
+- Configurable social media links.
+- Functional resume download when the file is supplied.
+- Responsive mobile navigation.
+- Functional project repository links.
+- Working live demo links when available.
+- Form validation.
+- Accessible interactive controls.
+- Smooth scrolling.
+- Active-section tracking.
+- Correct handling of missing optional data.
+
+Use semantic HTML elements.
+
+Ensure that every visible button has a meaningful action.
+
+Do not leave buttons that appear functional but do nothing.
+
+Do not use placeholder URLs such as example.com in the final published website.
+
+If required information is missing, use clearly identified configuration values and explain what must be replaced.
+
+---
+
+# 20. TECHNOLOGY STACK
+
+Build the portfolio using a modern, maintainable frontend architecture.
+
+Preferred stack:
+- React.
+- TypeScript.
+- Vite.
+- CSS Modules or a well-organized CSS architecture.
+- Lucide React or React Icons.
+
+Use reusable React components.
+
+Suggested component structure:
+
+src/
+  components/
+    Navigation.tsx
+    SocialToolbar.tsx
+    Hero.tsx
+    About.tsx
+    Skills.tsx
+    Projects.tsx
+    Experience.tsx
+    Education.tsx
+    Certifications.tsx
+    Contact.tsx
+    Footer.tsx
+
+  data/
+    profile.ts
+    skills.ts
+    projects.ts
+    education.ts
+
+  assets/
+    images/
+    icons/
+
+  styles/
+    global.css
+    variables.css
+
+  App.tsx
+  main.tsx
+
+public/
+  images/
+  resume/
+
+Adapt the folder structure as needed while keeping the project organized.
+
+Use centralized data files for personal information, project details, and social media URLs.
+
+Do not duplicate the same information throughout multiple components.
+
+If Google AI Studio provides a different supported application structure, adapt this architecture to the available environment without sacrificing maintainability.
+
+---
+
+# 21. PERSONALIZATION AND CONFIGURATION
+
+Create a central profile configuration containing:
+
+- Full name.
+- Professional headline.
+- Short introduction.
+- About paragraph.
+- Email.
+- GitHub URL.
+- LinkedIn URL.
+- Resume file path.
+- Profile photograph path.
+- Education details.
+- Skills.
+- Projects.
+- Certifications.
+
+Use the following identity information where appropriate:
+
+Name: Bhushan Gavale
+
+Primary target roles:
+Java Developer, Backend Developer, Full Stack Developer.
+
+Primary technical interests:
+Java, Spring Boot, REST APIs, SQL, React, and AI integration.
+
+Professional summary:
+A computer science graduate focused on Java development, backend engineering, and building practical web applications.
+
+Treat these values as editable configuration data.
+
+Do not invent missing personal details.
+
+---
+
+# 22. ACCESSIBILITY AND SEO
+
+Implement:
+- Semantic HTML.
+- Descriptive page title.
+- Meta description.
+- Appropriate heading hierarchy.
+- Alt text for meaningful images.
+- Keyboard-accessible navigation.
+- Visible focus indicators.
+- Accessible labels for form fields.
+- Appropriate color contrast.
+- Responsive viewport configuration.
+- Open Graph metadata where appropriate.
+- A favicon or simple developer monogram.
+
+Use meaningful link text.
+
+External links that open in a new tab must use appropriate security attributes.
+
+Do not rely on color alone to communicate important information.
+
+---
+
+# 23. PERFORMANCE AND CODE QUALITY
+
+Optimize the website for speed and maintainability.
+
+Requirements:
+- Avoid unnecessary dependencies.
+- Optimize portrait and project images.
+- Lazy-load images below the fold.
+- Avoid unnecessary React re-renders.
+- Use reusable components.
+- Remove unused code.
+- Handle missing image assets gracefully.
+- Avoid browser console errors.
+- Ensure that the production build succeeds.
+- Keep the code easy for a beginner developer to understand and maintain.
+
+Do not introduce a backend, database, or authentication system unless it is necessary for an explicitly requested feature.
+
+A personal portfolio should not require a database just to display static information.
+
+---
+
+# 24. IMPLEMENTATION WORKFLOW IN GOOGLE AI STUDIO
+
+Follow this implementation sequence.
+
+PHASE 1: PROJECT SETUP
+
+Inspect the available Google AI Studio application environment.
+
+Set up the supported React and TypeScript project structure.
+
+Install only the necessary dependencies.
+
+Create the initial working application.
+
+PHASE 2: DESIGN FOUNDATION
+
+Define CSS variables for colors, typography, spacing, borders, and animation durations.
+
+Implement the global page layout.
+
+Create the desktop navigation and responsive layout foundation.
+
+PHASE 3: HERO SECTION
+
+Implement the oversized background typography.
+
+Add the introduction, role headline, buttons, and portrait.
+
+Match the reference image's visual balance and whitespace.
+
+PHASE 4: PORTFOLIO CONTENT
+
+Implement About, Skills, Projects, Experience, Education, and Contact.
+
+Populate the sections using centralized configuration data.
+
+PHASE 5: INTERACTIONS
+
+Implement smooth scrolling, active navigation, hover states, form validation, and responsive mobile navigation.
+
+PHASE 6: RESPONSIVENESS
+
+Test all sections on desktop, tablet, and mobile.
+
+Fix overlapping elements, clipped text, oversized images, and horizontal overflow.
+
+PHASE 7: QUALITY ASSURANCE
+
+Run the available build and checks.
+
+Fix TypeScript errors, missing imports, broken links, and console errors.
+
+Test all interactive elements.
+
+PHASE 8: FINAL DELIVERY
+
+Provide:
+- The complete project implementation.
+- A clear folder structure.
+- Instructions for replacing the profile image.
+- Instructions for adding the resume PDF.
+- Instructions for updating social links.
+- Instructions for updating project details.
+- Commands to run the application locally.
+- Instructions for building the production version.
+- Deployment guidance for publishing the website online.
+
+Do not stop after generating a static design or a single hero component.
+
+Complete the full portfolio and verify that the main navigation and interactions work.
+
+---
+
+# 25. FINAL DESIGN EXPECTATION
+
+The finished website should feel like a premium personal brand website for an aspiring software engineer.
+
+Its defining visual characteristics should be:
+
+- A bright white background.
+- Bold black typography.
+- Oversized light-gray background lettering.
+- A striking professional portrait.
+- A clean two-column hero layout.
+- Minimal vertical navigation.
+- Floating social media icons.
+- Yellow accents used sparingly.
+- Beautifully spaced project cards.
+- Smooth, subtle interactions.
+- A responsive mobile experience.
+- Clear, recruiter-friendly project information.
+
+The portfolio must prioritize clarity, credibility, performance, and usability over unnecessary visual effects.
+
+The final result should be visually inspired by the uploaded reference image but personalized for Bhushan Gavale.
+
+Begin implementation with the design foundation and hero section, then continue through the remaining sections until the complete portfolio is functional.
