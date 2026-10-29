@@ -44,8 +44,8 @@ export const PROFILE_DATA = {
   roleHeadline: "Java Developer | Backend Developer | Full Stack Developer",
   shortIntro: "I'm a computer engineer graduate passionate about building reliable backend systems, scalable web applications, and practical software solutions using Java and modern web technologies.",
   aboutParagraphs: [
-    "Hello! I'm Bhushan Gavale, a computer engineering graduate with a deep focus on Java, Spring Boot ecosystem, relational database architecture, and full stack web development.",
-    "During my academic tenure and intensive hands-on project work, I've designed and engineered distributed supply chain systems, secure e-commerce workflows, and AI-augmented enterprise knowledge assistants. I believe in clean object-oriented architecture, and writing maintainable code.",
+    "Hello! I'm Bhushan Gavale, a computer engineering graduate with a deep focus on Java, Spring Boot ecosystem, relational database, full stack web development and consistent Data Structures & Algorithms (DSA) problem-solving.",
+    "During my academic tenure and intensive hands-on project work, I've designed and Blockchain Based Agricultural Food supply chain systems, secure e-commerce platform, and Android based Applications. I believe in clean object-oriented architecture, and writing maintainable code.",
     "I am eager to contribute my backend engineering and full-stack development skills to an innovative engineering team where I can solve high-impact technical challenges, and deliver reliable customer-facing software."
   ],
   stats: [
@@ -90,17 +90,24 @@ export const PROFILE_DATA = {
   ] as Quote[],
   experienceLearning: [
     {
-      period: "2023 - 2024",
+      period: "2025 - 2026",
       title: "Capstone Engineering: Blockchain Agricultural Supply Chain",
-      organization: "University Capstone Project",
+      organization: "University Major Project",
       description: "Architected a decentralized traceability platform using Java, Spring Boot, Ethereum smart contracts via Web3j, and a responsive React interface. Eliminated intermediary tampering across agricultural logistics.",
       skills: ["Java", "Spring Boot", "Web3j", "Ethereum", "MySQL", "React"]
     },
+     {
+      period: "2024-2025",
+      title: "Online BusPass System Using Android Studio",
+      organization: "University Minor Project",
+      description: "Developed a web-based system to simplify bus pass applications, online registration, pass management, and administrative approval.",
+      skills: ["Java", "Xml", "Firebase", "Android Studio"]
+    },
     {
-      period: "2023",
-      title: "Full-Stack E-Commerce Architecture Development",
+      period: "2025",
+      title: "Full-Stack E-Commerce Platform Development",
       organization: "Academic Software Lab",
-      description: "Engineered a modular e-commerce engine with transactional order processing, Spring Security authentication, role-based dashboards, and product catalog pagination.",
+      description: "Engineered a modular e-commerce website with transactional order processing, Spring Security authentication, role-based dashboards, and product catalog pagination.",
       skills: ["Spring MVC", "Spring Security", "JPA/Hibernate", "MySQL"]
     }
   ],

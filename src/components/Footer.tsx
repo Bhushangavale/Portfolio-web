@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { PROFILE_DATA } from '../data/profile.ts';
 
 export const Footer: React.FC = () => {
@@ -46,6 +46,15 @@ export const Footer: React.FC = () => {
             className="hover:text-neutral-950 dark:hover:text-white transition-colors"
           >
             LinkedIn
+          </a>
+          <span>·</span>
+          <a
+            href="https://leetcode.com/u/Bhushan0073/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-neutral-950 dark:hover:text-white transition-colors"
+          >
+            LeetCode
           </a>
           <span>·</span>
           <a
